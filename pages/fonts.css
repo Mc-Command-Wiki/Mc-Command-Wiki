@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Minecraft Regular";
+    src: url(https://fontsforweb.com/fonts/1412/minecraftfont.woff) format("woff");
+}
+
+.font-minecraft {
+    font-family: 'Minecraft Regular';
+}
