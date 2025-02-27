@@ -25,7 +25,7 @@ searchBar.addEventListener("input", e =>{
                 const summary = page.description;
 
                 cardName.textContent = name;
-                cardName.href = `commands/${name}.html`;
+                resultCard.href = `commands/${name}.html`;
                 cardSummary.textContent = summary;
 
                 resultsDisplay.append(resultCard);
