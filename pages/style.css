@@ -26,7 +26,14 @@ header{
 
 footer{
     background-color: #63666b;
-    height: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 6vh;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
 }
 
 .main{
