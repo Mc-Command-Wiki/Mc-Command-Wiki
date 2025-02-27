@@ -11,12 +11,17 @@
     <header>
         <h1>Mc Command Wiki</h1>
     </header>
-    <div id="results" class="main"></div>
-    <template>
-        <div class="result" data-result-template>
-            <a class="result-name" href=""></a>
-            <p class="result-summary"></p>
+    <div class="main">
+        <input id="search-bar" class="side-element">
+        <div id="results"></div>
+    </div>
+    <template data-result-template>
+        <div class="result">
+            <a class="result-name" href="" data-result-name></a>
+            <p class="result-summary" data-result-summary></p>
         </div>
     </template>
+
+    <script src="search.js"></script>
 </body>
 </html>
