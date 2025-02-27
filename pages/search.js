@@ -3,6 +3,8 @@ const resultsDisplay = document.getElementById("results");
 
 const resultTemplate = document.querySelector("[data-result-template]");
 
+searchBar.focus();
+
 let pages = [];
 fetch("commands.json").then(res => res.json()).then(data => {
     data.forEach(page => {
@@ -11,7 +13,7 @@ fetch("commands.json").then(res => res.json()).then(data => {
 });
 
 searchBar.addEventListener("input", e =>{
-    const searchTerm = e.target.value;
+    const searchTerm = e.target.value.toLowerCase();
     resultsDisplay.innerHTML = ""
     if (searchTerm !== ""){
         pages.forEach(page => {
