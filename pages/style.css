@@ -8,7 +8,7 @@ body{
     padding-top: 0;
     height: 100vh;
     height: max-content;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .alert{
@@ -37,6 +37,7 @@ footer{
     background-color: #63666b;
     background-image: url(../images/light_gray_concrete.png);
     position: absolute;
+    position: sticky;
     bottom: 0;
     height: 6vh;
     width: 100%;
