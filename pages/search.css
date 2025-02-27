@@ -5,13 +5,17 @@
 
 #results{
     padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    justify-items: stretch;
+    justify-content: center;
 }
 
 .result{
     background-image: url("../images/oak_planks.png");
     image-rendering: pixelated;
     background-size: 12vh;
-    width: 30%;
+    width: 370px;
     margin: auto;
     color: #000000;
     font-family: 'Minecraft Regular';
