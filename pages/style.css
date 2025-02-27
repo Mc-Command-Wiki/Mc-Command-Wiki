@@ -7,6 +7,8 @@ body{
     margin-top: 0;
     padding-top: 0;
     height: 100vh;
+    height: max-content;
+    overflow: hidden;
 }
 
 .alert{
@@ -15,21 +17,31 @@ body{
     text-align: center;
     position: absolute;
     margin: 0;
-    
+    color: crimson;
 }
 
 header{
     background-color: #1affff;
+    background-image: url(../images/light_blue_wool.png);
+    background-size: 12vh;
+    image-rendering: pixelated;
     margin-top: 0;
     padding: 10px;
 }
 
+header h1 {
+    color: darkslategrey;
+}
+
 footer{
     background-color: #63666b;
+    background-image: url(../images/light_gray_concrete.png);
     position: absolute;
     bottom: 0;
     height: 6vh;
     width: 100%;
+    background-size: 12vh;
+    image-rendering: pixelated;
 }
 
 footer a {
@@ -37,5 +49,17 @@ footer a {
 }
 
 .main{
-    border-top: solid 10px #257804;
+    /*border-top: solid 10px #257804;
+    border: 10px transparent;*/
+    padding: 15px;
+    /*border-image: url("../images/grass_block_side.png") 1% round;*/
+    flex-grow: 1;
+    background-image: url("../images/grass_block_side.png"), url("../images/dirt.png");
+    background-position: center top, center top;
+    background-repeat: repeat-x, repeat;
+    background-size: 12vh;
+    top:0;
+    bottom: 0;
+    image-rendering: pixelated;
+    height: 100vh;
 }
