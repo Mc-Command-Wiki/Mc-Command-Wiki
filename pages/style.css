@@ -62,7 +62,7 @@ footer a {
     bottom: 0;
     image-rendering: pixelated;
     height: 100vh;
-    border-top: solid 10px #257804;
+    /*border-top: solid 10px #257804;*/
 }
 
 .side-element{
