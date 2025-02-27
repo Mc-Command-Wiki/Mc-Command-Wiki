@@ -29,6 +29,6 @@ footer{
     height: 100%;
 }
 
-#main{
+.main{
     border-top: solid 10px #257804;
 }

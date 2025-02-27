@@ -1,0 +1,14 @@
+#results{
+    padding: 10px;
+}
+
+.result{
+    border: solid 2px;
+    width: 50%;
+    margin: auto;
+}
+
+.result-name{
+    color: #ffffff;
+    font-size: 3rem;
+}
