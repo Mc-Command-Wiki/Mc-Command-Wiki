@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Minecraft Regular";
+    src: url(https://fontsforweb.com/fonts/1412/minecraftfont.woff) format("woff");
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -45,6 +50,12 @@ footer{
     image-rendering: pixelated;
 }
 
+footer img.footer-icon{
+    width: 5vh;
+    height: 5vh;
+    margin-top: 0.5vh;
+}
+
 footer a {
     text-decoration: none;
 }
@@ -69,3 +80,16 @@ footer a {
 .side-element{
     float: right;
 }
+
+#search-bar{
+    border-radius: 0;
+    background-color: #cccccc;
+    border: none;
+    padding: 2px;
+    background-image: url("../images/oak_planks.png");
+    background-size: 12vh;
+    font-family: "Minecraft Regular";
+    box-shadow: #000000 2px 2px 3px;
+    outline: none;
+}
+
