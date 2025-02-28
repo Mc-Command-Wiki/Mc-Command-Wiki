@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors | MC Command Wiki</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="comamnds.css">
+</head>
+<body>
+    <p class="alert"><strong>THIS PAGE IS UNDER CONSTRUCTION</strong></p>
+    <header>
+        <h1 class="font-minecraft" style="font-size: 220%;">Selectors</h1>
+    </header>
+    <div class="main">
+        <a href="../search.html"><input id="search-bar" class="side-element" placeholder="Search" readonly></a>
+        <div class="content">
+            <br>
+            <h2>What are selelctors?</h2>
+            <p>Selectors are a method of identifying entities</p>
+            <p>They are formatted in 2 ways: @ selectors and name selectors</p>
+            <h3>The @ selector</h3>
+            <p>There are 5 types of @ selectors:</p>
+            <ul>
+                <li><details><summary>@s</summary>@s selects the current entity, and is used in many sub commands and conditons</details></li>
+                <li><details><summary>@p</summary>@p selects the closest player</details></li>
+                <li><details><summary>@n</summary>@n selects the closest entity, including players</details></li>
+                <li><details><summary>@a</summary>@a selects all players</details></li>
+                <li><details><summary>@e</summary>@e selects all entities and is the most laggy</details></li>
+            </ul>
+            <h4>Customising @ selectors</h4>
+            <p>after putting an @ selector (@e will be used for the examples) you can use a pair of [] to customise it</p>
+            <p>Here are some customisers for the selector:</p>
+            <ul>
+                <li><details><summary>type</summary>This filters by the type of entity. e.g. <code>@e[type=zombie]</code></details></li>
+                <li><details><summary>tag</summary>This filters by the tag an entity has e.g. <code>@e[tag=example]</code></details></li>
+                <li><details><summary>distance</summary>This filters by the distance in 4 ways, exact, upto, above or range e.g. <code>@e[distance=1] @e[distance=..1] @e[distance=1..] @e[distance=1..2]</code></details></li>
+                <li><details><summary>name</summary>This filters by the name of the entity e.g. <code>@e[name=SmoothTurtle872]</code></details></li>
+            </ul>
+            <p>YOu can add as many selector customisers as you would like</p>
+            <h3>Name Selectors</h3>
+            <p>These selectors are the name of a player or the UUID of the entity / player</p>
+            <p>You cannot customise name selectors</p>
+        </div>
+    </div>
+    <footer><a href="https://github.com/SmoothTurtle872/Mc-Command-Wiki"><img class="footer-icon" src="../../images/github-mark.svg"></a></footer>
+</body>
+</html>

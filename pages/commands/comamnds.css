@@ -18,3 +18,24 @@ code .arg{
     background-color: #00000033;
     color: #ffcccc;
 }
+
+p a{
+    color: #ffffff;
+    text-decoration: none;
+    background-image: url("../../images/oak_planks.png");
+    background-size: 12vh;
+    padding: 2px;
+    box-shadow: #000000 2px 2px 3px;
+}
+
+li{
+    list-style: none;
+}
+
+details > summary {
+    list-style-type: '+ ';
+}
+
+details[open] > summary {
+    list-style-type: '- ';
+}
