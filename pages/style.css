@@ -74,18 +74,20 @@ footer a {
     image-rendering: pixelated;
     height: 100vh;
     /*border-top: solid 10px #257804;*/
+    text-align: left;
 }
 
 .content{
     background-image: url("../images/grass_block_side.png"), url("../images/dirt.png");
     background-position: center top, center top;
     background-repeat: repeat-x, repeat;
-    width: 82.7vw;
+    width: 81.1vw;
     background-size: 12vh;
     margin: 0;
     margin-top: 0;
     height: 100vh;
     flex-grow: 1;
+    padding: 10px;
 }
 
 .side-element{
