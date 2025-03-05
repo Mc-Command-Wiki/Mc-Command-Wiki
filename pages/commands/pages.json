@@ -2,7 +2,7 @@
     {
         "name":"tellraw",
         "header":"/tellraw",
-        "content":"<p>test</p>"
+        "content":"<h1>UNFINISHED</h1>"
     },
     {
         "name":"say",
@@ -17,6 +17,6 @@
     {
         "name":"kill",
         "header":"/kill",
-        "content":"<br><h2>Syntax</h2><p>The kill command takes in one optional argument, the entity to kill.</p><p><code>/kill <span title=\"Selector Argument | The entity to be killed\" class=\"arg\">[entity]</span></code></p><p>The selector can be any valid entity selector and defaults to <code>@s</code> See <a href=\"selectors.html\">Selectors</a> for more info</p>"
+        "content":"<br><h2>Syntax</h2><p>The kill command takes in one optional argument, the entity to kill.</p><p><code>/kill <span title=\"Selector Argument | The entity to be killed\" class=\"arg\">[entity]</span></code></p><p>The selector can be any valid entity selector and defaults to <code>@s</code> See <a href=\"command.html?command=selectors\">Selectors</a> for more info</p>"
     }
 ]
