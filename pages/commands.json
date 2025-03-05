@@ -3,5 +3,6 @@
     {"name":"tellraw","description":"Send customisable text from the server"},
     {"name":"tp","description":"Teleport an entity"},
     {"name":"kill","description":"Kill an entity"},
-    {"name":"tag","description":"Modify the tags of an entity"}
+    {"name":"tag","description":"Modify the tags of an entity"},
+    {"name":"selectors","description":"Type of argument that is used for selecting entities"}
 ]

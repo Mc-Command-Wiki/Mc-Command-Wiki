@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Minecraft Regular";
     margin: 0;
     text-align: center;
     background-color: #422e0b;
@@ -32,6 +32,8 @@ header{
     image-rendering: pixelated;
     margin-top: 0;
     padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 header h1 {
@@ -63,18 +65,31 @@ footer a {
 .main{
     /*border-top: solid 10px #257804;
     border: 10px transparent;*/
-    padding: 15px;
+    padding: 0;
+    padding-left: 0;
     /*border-image: url("../images/grass_block_side.png") 1% round;*/
     flex-grow: 1;
-    background-image: url("../images/grass_block_side.png"), url("../images/dirt.png");
-    background-position: center top, center top;
-    background-repeat: repeat-x, repeat;
+    background-image: url("../images/stone.png");
     background-size: 12vh;
     top:0;
     bottom: 0;
     image-rendering: pixelated;
     height: 100vh;
     /*border-top: solid 10px #257804;*/
+    text-align: left;
+}
+
+.content{
+    background-image: url("../images/grass_block_side.png"), url("../images/dirt.png");
+    background-position: center top, center top;
+    background-repeat: repeat-x, repeat;
+    width: 81.1vw;
+    background-size: 12vh;
+    margin: 0;
+    margin-top: 0;
+    height: 100vh;
+    flex-grow: 1;
+    padding: 10px;
 }
 
 .side-element{
@@ -91,5 +106,6 @@ footer a {
     font-family: "Minecraft Regular";
     box-shadow: #000000 2px 2px 3px;
     outline: none;
+    width: 17vw;
 }
 
