@@ -32,6 +32,8 @@ header{
     image-rendering: pixelated;
     margin-top: 0;
     padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 header h1 {
